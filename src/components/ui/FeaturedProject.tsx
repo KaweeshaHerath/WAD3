@@ -1,5 +1,5 @@
 import { FeaturedProjectType } from '@/lib/types';
-import { blurImageURL } from '@/lib/utils/config';
+// import { blurImageURL } from '@/lib/utils/config';
 import { cn } from '@/lib/utils/helper';
 
 import { Icon } from '@iconify/react';
@@ -24,17 +24,17 @@ const FeaturedProject = ({
   align = 'left',
   ...rest
 }: Props) => {
-  const handleClick = (event: React.MouseEvent<HTMLVideoElement>) => {
-    event.stopPropagation(); // Prevent the click event from propagating to the parent elements
-    event.preventDefault(); // Prevent the default behavior of the click event
+  // const handleClick = (event: React.MouseEvent<HTMLVideoElement>) => {
+  //   event.stopPropagation(); // Prevent the click event from propagating to the parent elements
+  //   event.preventDefault(); // Prevent the default behavior of the click event
 
-     if (event.target === event.currentTarget) {
-      window.open(video, '_blank');
-    } else {
-      window.open(url, '_blank');
-    }
+  //    if (event.target === event.currentTarget) {
+  //     window.open(video, '_blank');
+  //   } else {
+  //     window.open(url, '_blank');
+  //   }
 
-  }
+  // }
   return (
     <motion.div
       className={cn(
@@ -51,7 +51,7 @@ const FeaturedProject = ({
         )}
       >
         <Image
-          src="/05.png"
+          src="./05.png"
           alt= "Image Alt Text"
           width={650}
           height={200}
@@ -64,7 +64,7 @@ const FeaturedProject = ({
           className="absolute inset-0 z-50 block bg-transparent"
         />
         <a href='https://drive.google.com/file/d/1dVjvZE0FmXF0jsbfSf_ZI2d-piOQJvWb/view?usp=drive_link' className="absolute inset-0 z-50 block bg-transparent">
-          <img src ="05.png" alt="Image Alt Text" />
+        <Image src="./05.png" alt="Image Alt Text" layout="fill" objectFit="cover" />
         </a>
       </div>
       <div
