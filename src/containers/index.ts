@@ -1,7 +1,7 @@
 import About from './About';
 import Contact from './Contact';
 import Email from './Email';
-import Experience from './Experience';
+// import Experience from './Experience';
 import FeaturedProjects from './FeaturedProjects';
 import Hero from './Hero';
 import Footer from './layout/Footer';
@@ -16,7 +16,7 @@ export {
   About,
   Contact,
   Email,
-  Experience,
+  // Experience,
   FeaturedProjects,
   Footer,
   Hero,
