@@ -16,5 +16,5 @@ export const aboutSection: AboutSectionType = {
     ],
     },
     
-    img: '/my pic.jpg',
+    img: './my pic.jpg',
 };
