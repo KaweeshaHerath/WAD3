@@ -9,7 +9,8 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'Calculator ',      
-      url: ' Crafting Calculative Wonders: A Journey with NetBeans and Java.',
+      // url: ' Crafting Calculative Wonders: A Journey with NetBeans and Java.',
+      url: '/',
       repo: 'https://drive.google.com/drive/folders/15p0w6-8OWmRqEqJ7BD0-_k7QixiJ9ATY?usp=drive_link',
       img: './02.png',
       year: 2022,
