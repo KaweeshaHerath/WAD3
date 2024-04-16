@@ -65,7 +65,7 @@ const FeaturedProject = ({
           className="absolute inset-0 z-50 block bg-transparent"
         />
         <a href='https://drive.google.com/file/d/1dVjvZE0FmXF0jsbfSf_ZI2d-piOQJvWb/view?usp=drive_link' className="absolute inset-0 z-50 block bg-transparent">
-        <Image src={img} alt="Image Alt Text" layout="fill" objectFit="cover" />
+        {/* <Image src={img} alt="Image Alt Text" layout="fill" objectFit="cover" /> */}
         </a>
       </div>
       <div
