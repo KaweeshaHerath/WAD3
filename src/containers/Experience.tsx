@@ -6,8 +6,13 @@
 // import { TabList } from '@/components';
 
 
-// const Experience = () => {};
+const Experience = () => {
+    return (
+        <div>
+            Empty
+        </div>
+    )
+  };
   
 
-// export default Experience;  // Removing section in edition.
-export default {};
+export default Experience;  // Removing section in edition.
