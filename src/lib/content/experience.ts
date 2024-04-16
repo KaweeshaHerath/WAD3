@@ -46,6 +46,8 @@
 //     ],
 // };
 
-// export default experienceSection;
+// experience.ts
+export {};
+
 
 
