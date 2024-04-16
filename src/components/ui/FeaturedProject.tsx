@@ -7,10 +7,11 @@ import { motion, MotionProps } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 
-interface Props extends FeaturedProjectType, MotionProps {
-  align?: 'left' | 'right';
-  // video: string; // Add the video prperty here
-}
+  interface Props extends FeaturedProjectType, MotionProps {
+    align?: 'left' | 'right';
+    video: string; // Add the video prop here
+  }
+  
 
 const FeaturedProject = ({
   // img,
